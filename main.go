@@ -38,6 +38,7 @@ type GeoIP struct {
 	State   string   `xml:"State"`
 }
 
+// GetCountryISO2ByNameResponse estructura
 type GetCountryISO2ByNameResponse struct {
 	XMLName xml.Name `xml:"Envelope"`
 	Text    string   `xml:",chardata"`
